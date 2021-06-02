@@ -1,0 +1,23 @@
+{
+  "name": "postgresexcercise",
+  "version": "1.0.0",
+  "description": "To learn postgres",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Ogunbanwo Afolabi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2"
+  }
+}
